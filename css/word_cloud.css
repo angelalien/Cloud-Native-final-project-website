@@ -51,7 +51,7 @@ article .picbox, article .desbox{
 }
 
 article .desbox{
-	line-height:1.5em;/*1.5倍行高*/
+	line-height:1em;/*1.5倍行高*/
 }
 
 article .picbox{	
@@ -67,13 +67,17 @@ article .picbox{
 
 .desbox p{
 	text-align:justify;
-	padding:10px 0px;
+	padding:8px 0px;
 }
 
 mark{
 	background:#4a596a;
 	color:#fff;
 	padding:5px;
+}
+
+.key{
+	margin: 15px 0px 0px;
 }
 
 .picbox img{
