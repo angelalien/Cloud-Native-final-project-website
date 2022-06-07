@@ -27,8 +27,7 @@
 
   const csvUrl = 'https://raw.githubusercontent.com/angelalien/Cloud-Native-final-project-website/main/data.csv'; 
   const getData = async () => {
-    const data = await d3.csv(csvUrl);
-    
+    const data = await d3.csv(csvUrl);    
     //const data = await d3.csv('data.csv');
     
     // Have a look at the attributes available in the console!
